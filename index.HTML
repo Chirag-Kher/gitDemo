@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code-Compose</title>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">  -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- Include jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+</head>
+
+<body>
+<header class="navbar">
+<div class="logo"><a href="#"><img src="image/logo.svg" alt=""></a></div>
+<div class="hamburger-menu" id="hamburger-menu">
+    <!-- Hamburger Icon -->
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<nav>
+    <div class="hamburger-menu open" id="hamburger-menu-open">
+        <!-- Hamburger Icon -->
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul class="menu" id="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#listings">Listings</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#blog">Posts</a></li>
+        <li><a href="#Pages">Pages </a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="contact mobile">
+            
+            <a href="tel:+6865886666"><img src="image/phone-header.svg" alt="">+68 658 88666</a>
+            <button class="add-property">Add Property</button>
+        </div> 
+    </ul>
+</nav>
+<div class="contact">
+    <img src="image/phone-header.svg" alt="">
+    <a href="tel:+6865886666">+68 658 88666</a>
+    <button class="add-property">Add Property</button>
+</div> 
+</header>
+
+<section class="hero">
+<div class="container">
+    <div class="main_hero">
+        <div class="contet font17">
+            <p>5 Beds</p>
+            <p>2 Baths</p>
+            <p>180 sqft</p>
+        </div>
+        <div class="title">
+            <h1>Office Space at Northwest</h1>
+        </div>
+        <div class="main_price font21">
+            <h3 class="price">$250<span>/month</span></h3>
+        </div>
+        <div class="button">
+            <a href="#">View Details</a>
+        </div>
+    </div>
+</div>
+</section>
+
+
+<section class="three_col_sec">
+<div class="container">
+    <div class="title"><h2>Why You Should Work With Us</h2></div>
+    <div class="content font17"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p></div>
+    <div class="main_three_col d-flex ">
+        <div class="outer_three_col w33 tabw50 mw100">
+            <div class="inner_three_col">
+                <div class="icon-img">
+                            <img src="image/three_col1.svg" alt="">
+                </div>
+                <div class="icon_title"><h3>Wide Range of Properties</h3></div>
+                <div class="icon_content"> <p>We offer expert legal help for all related property
+                    items in Dubai.</p></div>
+                
+            </div>
+        </div>
+        <div class="outer_three_col w33 tabw50 mw100">
+            <div class="inner_three_col">
+                <div class="icon-img">
+                            <img src="image/three_col3.svg" alt="">
+                </div>
+                <div class="icon_title"><h3>Buy or Rent Homes</h3></div>
+                <div class="icon_content"> <p>We sell your home at the best market price and very
+                    quickly as well.</p></div>
+                
+            </div>
+        </div>
+        <div class="outer_three_col w33 tabw50 mw100">
+            <div class="inner_three_col">
+                <div class="icon-img">
+                            <img src="image/three_col2.svg" alt="">
+                </div>
+                <div class="icon_title"><h3>Trusted by Thousands</h3></div>
+                <div class="icon_content"> <p>We offer you free consultancy to get a loan for your
+                    new home.</p></div>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+ 
+<section class="properties">
+    <div class="container">
+    <div class="title_main">
+        <h2>Properties</h2>
+        <p class="font17">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="main_properties">
+        <div class="main_filter">
+        <!-- Filter Buttons -->
+        <div class="filters">
+            <button data-filter="*" class="filter-btn active">All Properties</button>
+            <button data-filter=".villa" class="filter-btn">Villa</button>
+            <button data-filter=".apartment" class="filter-btn">Apartments</button>
+            <button data-filter=".office" class="filter-btn">Office</button>
+        </div>
+        </div>
+    
+        <div class="grid d-flex">
+            <div class="grid-item villa w33 tabw50 mw100 bg" >
+                <div class="card bg" style="background-image: url(./image/Properties1.png);">
+                    <div class="card-content">
+                        <div class="main-badge">
+                            <span class="badge">FOR SALE</span>
+                            <span class="badge">FEATURED</span>
+                        </div>
+                        <div class="p_title">
+                            <h3>Luxury Family Home</h3>
+                        </div>
+                        <div class="location">
+                            <p><img src="image/loction.svg" alt="">1800-1818 79th St</p>
+                        </div>
+                        <div class="main_funtion d-flex">
+                            <div class="items_p">
+                            <ul>
+                                <li><img src="image/bad.svg" alt="">4</li>
+                                <li><img src="image/bath.svg" alt="">1</li>
+                                <li><img src="image/sqr.svg" alt="">400</li>
+                            </ul>
+                            </div>
+                            <div class="p_price">
+                                <p class="price">$395,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item apartment w33 tabw50 mw100 bg" >
+                <div class="card bg" style="background-image: url(./image/Properties6.png);">
+                    <div class="card-content">
+                        <div class="main-badge">
+                            <span class="badge">FOR SALE</span> 
+                        </div>
+                        <div class="p_title">
+                            <h3>Skyper Pool Apartment</h3>
+                        </div>
+                        <div class="location">
+                            <p><img src="image/loction.svg" alt="">1020 Bloomingdale Ave</p>
+                        </div>
+                        <div class="main_funtion d-flex">
+                            <div class="items_p">
+                            <ul>
+                                <li><img src="image/bad.svg" alt="">4</li>
+                                <li><img src="image/bath.svg" alt="">1</li>
+                                <li><img src="image/sqr.svg" alt="">450</li>
+                            </ul>
+                            </div>
+                            <div class="p_price">
+                                <p class="price">$280,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item villa w33 tabw50 mw100 bg" >
+                <div class="card bg" style="background-image: url(./image/Properties2.png);">
+                    <div class="card-content">
+                        <div class="main-badge">
+                            <span class="badge">FOR SALE</span> 
+                        </div>
+                        <div class="p_title">
+                            <h3>North Dillard Street</h3>
+                        </div>
+                        <div class="location">
+                            <p><img src="image/loction.svg" alt="">4330 Bell Shoals Rd</p>
+                        </div>
+                        <div class="main_funtion d-flex">
+                            <div class="items_p">
+                            <ul>
+                                <li><img src="image/bad.svg" alt="">4</li>
+                                <li><img src="image/bath.svg" alt="">1</li>
+                                <li><img src="image/sqr.svg" alt="">400</li>
+                            </ul>
+                            </div>
+                            <div class="p_price">
+                                <p class="price">$250/month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item apartment w33 tabw50 mw100 bg" >
+                <div class="card bg" style="background-image: url(./image/Properties3.png);">
+                    <div class="card-content">
+                        <div class="main-badge">
+                            <span class="badge">FOR SALE</span>
+                            <span class="badge">FEATURED</span>
+                        </div>
+                        <div class="p_title">
+                            <h3>Eaton Garth Penthouse</h3>
+                        </div>
+                        <div class="location">
+                            <p><img src="image/loction.svg" alt="">7722 18th Ave, Brooklyn</p>
+                        </div>
+                        <div class="main_funtion d-flex">
+                            <div class="items_p">
+                            <ul>
+                                <li><img src="image/bad.svg" alt="">4</li>
+                                <li><img src="image/bath.svg" alt="">1</li>
+                                <li><img src="image/sqr.svg" alt="">450</li>
+                            </ul>
+                            </div>
+                            <div class="p_price">
+                                <p class="price">$180,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item office w33 tabw50 mw100 bg" >
+                <div class="card bg" style="background-image: url(./image/Properties4.png);">
+                    <div class="card-content">
+                        <div class="main-badge">
+                            <span class="badge">FOR SALE</span>
+                            <span class="badge">FEATURED</span>
+                        </div>
+                        <div class="p_title">
+                            <h3>New Apartment Nice Wiew</h3>
+                        </div>
+                        <div class="location">
+                            <p><img src="image/loction.svg" alt="">42 Avenue O, Brooklyn</p>
+                        </div>
+                        <div class="main_funtion d-flex">
+                            <div class="items_p">
+                            <ul>
+                                <li><img src="image/bad.svg" alt="">4</li>
+                                <li><img src="image/bath.svg" alt="">1</li>
+                                <li><img src="image/sqr.svg" alt="">460</li>
+                            </ul>
+                            </div>
+                            <div class="p_price">
+                                <p class="price">$850/month</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid-item office w33 tabw50 mw100 bg" >
+                <div class="card bg" style="background-image: url(./image/Properties5.png);">
+                    <div class="card-content">
+                        <div class="main-badge">
+                            <span class="badge">FOR SALE</span>
+                            <span class="badge">FEATURED</span>
+                        </div>
+                        <div class="p_title">
+                            <h3>Diamond Manor Apartment</h3>
+                        </div>
+                        <div class="location">
+                            <p><img src="image/loction.svg" alt="">7802 20th Ave, Brooklyn</p>
+                        </div>
+                        <div class="main_funtion d-flex">
+                            <div class="items_p">
+                            <ul>
+                                <li><img src="image/bad.svg" alt="">4</li> 
+                                <li><img src="image/sqr.svg" alt="">500</li>
+                            </ul>
+                            </div>
+                            <div class="p_price">
+                                <p class="price">$259,000</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+     
+           
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- new section -->
+
+
+  <footer class="footer">
+    <div class="container">
+    <div class="footer-content">
+      <p>Copyright © 2024. JustHome</p>
+      <div class="logo">
+        <img src="image/footer_logo.svg" alt="JustHome Logo">
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+      </div>
+    </div>
+</div>
+  </footer>
+<script>
+$(document).ready(function () {
+    $('#hamburger-menu').click(function () {
+        $('nav').toggleClass('active');
+        
+    });
+    $('#hamburger-menu-open').click(function () {
+        $(' nav').toggleClass('active');
+        
+    }); 
+
+
+        // Initialize Isotope
+    var $grid = $('.grid').isotope({
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows'
+    });
+
+    // Filter items on button click
+    $('.filters').on('click', '.filter-btn', function () {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+
+    // Update active button
+    $('.filter-btn').removeClass('active');
+    $(this).addClass('active');
+    });
+
+});
+
+ 
+
+</script>
+</body>
+
+</html>
